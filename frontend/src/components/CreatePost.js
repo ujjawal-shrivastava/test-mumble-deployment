@@ -12,7 +12,7 @@ function PostForm() {
   const onFormSubmit = (e) => {
     e.preventDefault();
     if (!message) {
-      return setError('Post cannot be empty!');
+      return setError('Post cannot be empty bro!');
     }
     alert(`Creating new post with message: ${message}`);
     setMessage('');
